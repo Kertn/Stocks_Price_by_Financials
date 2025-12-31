@@ -22,8 +22,8 @@ venv:
 	python -m venv .venv
 
 install: venv
-	$(PIP) install --upgrade pip setuptools wheel
-	$(PIP) install -r $(REQ)
+	$(PY) -m pip install --upgrade pip setuptools wheel
+	$(PY) -m pip install -r $(REQ)
 
 run: install
 	$(PY) main.py
