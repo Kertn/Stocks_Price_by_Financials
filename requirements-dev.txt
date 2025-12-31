@@ -1,0 +1,21 @@
+# Core
+pandas
+numpy
+tqdm
+
+# Visualization & App
+plotly
+streamlit
+
+# Financial Data
+yfinance
+
+# Web Scraping
+selenium
+
+# Machine Learning / AI
+scikit-learn
+optuna
+torch
+catboost
+xgboost

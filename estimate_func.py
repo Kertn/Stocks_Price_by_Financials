@@ -1,9 +1,6 @@
 from sklearn import preprocessing
-import numpy as np
 import pandas as pd
-from statistics import mean
 import yfinance as yf
-import csv
 from tqdm import tqdm
 
 def estimate_annualy_income(model, train_df, y_test, price_discount, bear_inv):

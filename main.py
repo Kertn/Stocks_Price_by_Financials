@@ -2,7 +2,6 @@
 import yfinance as yf
 from datetime import date
 import pandas as pd
-from warnings import simplefilter
 from train_models import *
 from Optuna_search import Optuna_Optim, Invest, Test_estim_model
 
